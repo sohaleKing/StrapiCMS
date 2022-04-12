@@ -2,12 +2,12 @@
 
 
 ## Goal
-The goal here is to be able to create a test blog website using headless Strapi CMS as the backend, Angular for the frontend and sharing the experience with other developers
+The goal here is to be able to create a test blog website using headless Strapi CMS as the backend, Angular for the frontend in order to familiarize and to share the experience with other developers
 
 ## Prerequisites
-Strapi v3.0.0 - Node 16 - npm 8
+Strapi v4.1.7 - Node 16 - npm 8
 
-## Back End Setup
+## Back-End Setup
  `npx create-strapi-app@latest backend --quickstart --no-run`
 
 ### Available commands in your project:
@@ -24,11 +24,23 @@ Strapi v3.0.0 - Node 16 - npm 8
   `npm run strapi`
   Display all available commands.
 
-  You can start by doing:
-  `npm run develop`
+  You can start by doing: npm run develop (default), I changed the dev script just to make it easier to run
+  `npm run dev`   --> opens the strapi on your localhost port 1337
+
+  - By default Strapi create REST endpoints for each of your content-types. [http://localhost:1337/api].
+  - With the GraphQL plugin, you will be able to add a GraphQL endpoint to fetch and mutate your content.
 
   ## GraphQL on Strapi
   navigate to server folder and run this: 
   `npm run strapi install graphql`
+  - Then, start your app and open your browser at [http://localhost:1337/graphql] You should see the interface (GraphQL Playground) that will help you to write GraphQL query to explore your data
 
-  
+  ## Front-End Setup
+  Install the Angular CLI 
+  `npm install -g @angular/cli`
+
+  Create an Angular frontend
+  `ng new frontend` and then you can run the angular! 
+
+
+
