@@ -43,6 +43,7 @@ strapi automatically generate the all CRUD api for any content type but the acce
 more info at [strapi docs - Rest API ](https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-reference/rest-api.html)
 two method to get the access: 
 1- by editing the user public role permissions
+(checking the find -findone(byId))
  
 
 
