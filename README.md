@@ -42,5 +42,10 @@ Strapi v4.1.7 - Node 16 - npm 8
   Create an Angular frontend
   `ng new frontend` and then you can run the angular! 
 
+## run Strapi
+
+token: TON_strapi: (Full Access)
+e0a71e0074bbdb0dd7b8f327f53d55ae75a97fe4f9123fdc8bbdfc2677dd2117db0e91e034a1209f47e145ff14db9b3d31c2b644017938b8b6614bc61dd03ceca46890f57e6a46ab9300dcfcd90bb8df761810a9656a528d4bd496a5557108d4b18b6dcb3d7d2647f3648fd350f82b5504934b8b98b4c6ef9b7c4bd5573425df
+
 
 
