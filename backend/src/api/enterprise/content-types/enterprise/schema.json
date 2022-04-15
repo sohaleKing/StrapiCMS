@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enterprises",
+  "info": {
+    "singularName": "enterprise",
+    "pluralName": "enterprises",
+    "displayName": "enterprise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "required": true,
+      "private": true
+    }
+  }
+}

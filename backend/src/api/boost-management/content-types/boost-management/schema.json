@@ -1,0 +1,78 @@
+{
+  "kind": "singleType",
+  "collectionName": "boost_managements",
+  "info": {
+    "singularName": "boost-management",
+    "pluralName": "boost-managements",
+    "displayName": "Boost Management",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.header",
+      "required": true
+    },
+    "identifier": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true
+    },
+    "tab": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.tab",
+      "required": true
+    },
+    "subscriptions": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "table.subscriptions",
+      "required": true
+    },
+    "scheduled": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "table.scheduled",
+      "required": true
+    },
+    "enterprise": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::enterprise.enterprise"
+    }
+  }
+}

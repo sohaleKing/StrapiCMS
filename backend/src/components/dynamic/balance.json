@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dynamic_balances",
+  "info": {
+    "displayName": "balance",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "premium": {
+      "type": "integer"
+    },
+    "ludicrous": {
+      "type": "integer"
+    }
+  }
+}

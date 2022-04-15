@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string",
+      "required": false
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "blank",
+        "self"
+      ]
+    },
+    "cross_origin": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

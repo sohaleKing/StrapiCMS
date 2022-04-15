@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_table_subscriptions",
+  "info": {
+    "displayName": "subscriptions",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "current_boost": {
+      "type": "string"
+    },
+    "upcoming_boost": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic.balance"
+    },
+    "boost_now": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "boost_scheduled": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_tabs",
+  "info": {
+    "displayName": "tab",
+    "icon": "minus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

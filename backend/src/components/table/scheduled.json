@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_table_scheduleds",
+  "info": {
+    "displayName": "Scheduled",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "boost_type": {
+      "type": "enumeration",
+      "enum": [
+        "premium",
+        "ludicrous"
+      ]
+    },
+    "starts": {
+      "type": "datetime",
+      "default": "2022-04-01T04:00:00.000Z"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    }
+  }
+}
