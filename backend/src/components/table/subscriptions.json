@@ -28,11 +28,6 @@
     "upcoming_boost": {
       "type": "string"
     },
-    "balance": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamic.balance"
-    },
     "boost_now": {
       "type": "component",
       "repeatable": false,
@@ -42,6 +37,16 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.button"
+    },
+    "premium_balance_unit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic.unit"
+    },
+    "ludicrous_balance_unit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic.unit"
     }
   }
 }
