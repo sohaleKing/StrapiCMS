@@ -4,7 +4,8 @@
   "info": {
     "singularName": "theme",
     "pluralName": "themes",
-    "displayName": "theme"
+    "displayName": "theme",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,6 +31,11 @@
         }
       },
       "type": "string"
+    },
+    "enterprise": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::enterprise.enterprise"
     }
   }
 }

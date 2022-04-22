@@ -5,7 +5,7 @@
 The goal here is to be able to create a test blog website using headless Strapi CMS as the backend, Angular for the frontend in order to familiarize and to share the experience with other developers
 
 ## Prerequisites
-Strapi v4.1.7 - Node 16 - npm 8
+Strapi npx create-strapi-app@latest backend --quickstart --no-run - Node 16 - npm 8
 
 ## Back-End Setup
  `npx create-strapi-app@latest backend --quickstart --no-run`

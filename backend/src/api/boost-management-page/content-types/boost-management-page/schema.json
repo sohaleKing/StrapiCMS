@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "boost_management_pages",
+  "info": {
+    "singularName": "boost-management-page",
+    "pluralName": "boost-management-pages",
+    "displayName": "BoostManagementPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "tabSubscriptionsText": {
+      "type": "string"
+    },
+    "tabScheduledText": {
+      "type": "string"
+    },
+    "tableNicknameText": {
+      "type": "string"
+    },
+    "tablePhoneNumberText": {
+      "type": "string"
+    },
+    "tableOwnerText": {
+      "type": "string"
+    },
+    "tableCurrentBoostsText": {
+      "type": "string"
+    },
+    "tableBalanceText": {
+      "type": "string"
+    },
+    "tableActionsText": {
+      "type": "string"
+    },
+    "emptyBoostText": {
+      "type": "string"
+    },
+    "minUnitText": {
+      "type": "string"
+    },
+    "boostNowText": {
+      "type": "string"
+    },
+    "scheduleBoostText": {
+      "type": "string"
+    },
+    "tableUpcomingBoostsText": {
+      "type": "string"
+    },
+    "tableBoostTypeText": {
+      "type": "string"
+    },
+    "tableStartsText": {
+      "type": "string"
+    },
+    "tableUsernameText": {
+      "type": "string"
+    },
+    "tableDurationText": {
+      "type": "string"
+    },
+    "tableTitleText": {
+      "type": "string"
+    },
+    "tableCreatedByText": {
+      "type": "string"
+    },
+    "editText": {
+      "type": "string"
+    },
+    "DeleteText": {
+      "type": "string"
+    }
+  }
+}
