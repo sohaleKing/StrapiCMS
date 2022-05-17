@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "boost_management_pages",
+  "collectionName": "boost_actions",
   "info": {
-    "singularName": "boost-management-page",
-    "pluralName": "boost-management-pages",
-    "displayName": "BoostManagementPage",
+    "singularName": "boost-action",
+    "pluralName": "boost-actions",
+    "displayName": "BoostAction",
     "description": ""
   },
   "options": {
@@ -16,205 +16,178 @@
     }
   },
   "attributes": {
-    "PageTitle": {
+    "boostNowHeaderText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tabSubscriptionsText": {
+    "deviceText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tabScheduledText": {
+    "applicationText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableNicknameText": {
+    "changeAppText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tablePhoneNumberText": {
+    "cancelRequestText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableOwnerText": {
+    "cancelBoostText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableCurrentBoostsText": {
+    "availableBoostMinutesText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableBalanceText": {
+    "chooseApplicationText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableActionsText": {
+    "premiumText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "emptyBoostText": {
+    "ludicrousText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "minUnitText": {
+    "startText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "boostNowText": {
+    "typeText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "scheduleBoostText": {
+    "durationText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableUpcomingBoostsText": {
+    "titleText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableBoostTypeText": {
+    "cancelText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableStartsText": {
+    "saveText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableUsernameText": {
+    "nowText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableDurationText": {
+    "laterText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableTitleText": {
+    "scheduleBoostHeaderText": {
       "type": "string",
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "tableCreatedByText": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "required": true
-    },
-    "editText": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "required": true
-    },
-    "DeleteText": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "required": true
-    },
-    "deleteConfirmationText": {
+    "minsAvailableText": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -223,7 +196,7 @@
       "type": "string",
       "required": true
     },
-    "deleteMessageText": {
+    "activeBoostText": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -232,7 +205,7 @@
       "type": "string",
       "required": true
     },
-    "deleteCancelButton": {
+    "minuteText": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -241,7 +214,7 @@
       "type": "string",
       "required": true
     },
-    "deleteDeleteButton": {
+    "optionalText": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -249,6 +222,23 @@
       },
       "type": "string",
       "required": true
+    },
+    "boostReqButtonPart1": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "boostReqButtonPart2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

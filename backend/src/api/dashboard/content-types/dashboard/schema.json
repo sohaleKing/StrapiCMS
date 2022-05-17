@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "boost_management_pages",
+  "collectionName": "dashboards",
   "info": {
-    "singularName": "boost-management-page",
-    "pluralName": "boost-management-pages",
-    "displayName": "BoostManagementPage",
+    "singularName": "dashboard",
+    "pluralName": "dashboards",
+    "displayName": "Dashboard",
     "description": ""
   },
   "options": {
@@ -16,7 +16,43 @@
     }
   },
   "attributes": {
-    "PageTitle": {
+    "pageTitle": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tabUsersText": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tabActiveUsersText": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tabPendingUsersText": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tabBoostsText": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -25,7 +61,16 @@
       },
       "required": true
     },
-    "tabSubscriptionsText": {
+    "tabBoostsPremiumText": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tabBoostLudicrousText": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -34,7 +79,7 @@
       },
       "required": true
     },
-    "tabScheduledText": {
+    "chartLineUserDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -43,7 +88,7 @@
       },
       "required": true
     },
-    "tableNicknameText": {
+    "chartLineBillingDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -52,7 +97,7 @@
       },
       "required": true
     },
-    "tablePhoneNumberText": {
+    "chartDualLineUserDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -61,7 +106,7 @@
       },
       "required": true
     },
-    "tableOwnerText": {
+    "chartDualLineBillingDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -70,7 +115,7 @@
       },
       "required": true
     },
-    "tableCurrentBoostsText": {
+    "chartDualLineDeviceDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -79,7 +124,7 @@
       },
       "required": true
     },
-    "tableBalanceText": {
+    "chartBarUserDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -88,7 +133,7 @@
       },
       "required": true
     },
-    "tableActionsText": {
+    "chartCPEGanttUserDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -97,7 +142,7 @@
       },
       "required": true
     },
-    "emptyBoostText": {
+    "chartCPEGanttDevicesDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -106,7 +151,7 @@
       },
       "required": true
     },
-    "minUnitText": {
+    "chartCPEGanttBillingDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -115,7 +160,7 @@
       },
       "required": true
     },
-    "boostNowText": {
+    "chartLineBoostDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -124,7 +169,7 @@
       },
       "required": true
     },
-    "scheduleBoostText": {
+    "chartPieUserDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -133,7 +178,7 @@
       },
       "required": true
     },
-    "tableUpcomingBoostsText": {
+    "chartPieBillingDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -142,7 +187,7 @@
       },
       "required": true
     },
-    "tableBoostTypeText": {
+    "chartPieDeviceDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -151,7 +196,7 @@
       },
       "required": true
     },
-    "tableStartsText": {
+    "chartHistBoostDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -160,7 +205,7 @@
       },
       "required": true
     },
-    "tableUsernameText": {
+    "chartUEGanttUserDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -169,7 +214,7 @@
       },
       "required": true
     },
-    "tableDurationText": {
+    "chartUEGanttBillingDataTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -178,77 +223,45 @@
       },
       "required": true
     },
-    "tableTitleText": {
-      "type": "string",
+    "chartDualLineUserDataYAxisTitle1": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "required": true
+      "type": "string"
     },
-    "tableCreatedByText": {
-      "type": "string",
+    "chartDualLineUserDataYAxisTitle2": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "required": true
+      "type": "string"
     },
-    "editText": {
-      "type": "string",
+    "chartBarUserDataYAxisTitle": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "required": true
+      "type": "string"
     },
-    "DeleteText": {
-      "type": "string",
+    "chartLineUserDataYAxisTitle": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "required": true
+      "type": "string"
     },
-    "deleteConfirmationText": {
+    "chartLineBoostDataYAxisTitle": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
-    },
-    "deleteMessageText": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
-    "deleteCancelButton": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
-    "deleteDeleteButton": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   }
 }

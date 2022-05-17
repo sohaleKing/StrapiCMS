@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_skin_skin_components",
+  "info": {
+    "displayName": "skin component",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "headertext": {
+      "type": "string"
+    }
+  }
+}
